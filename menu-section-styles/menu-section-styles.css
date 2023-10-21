@@ -111,6 +111,10 @@
         height: 90px;
         /* margin: 0 20px 20px 0; */
     }
+
+    .afn-menu-item .item-title {
+        max-width: unset;
+    }
     
     .afn-menu-item .price-line {
         column-gap: 26px;
@@ -118,6 +122,7 @@
         flex-direction: column;
         border-bottom: unset;
     }
+    
     .afn-menu-item .price-col {
         flex-direction: row;
         min-height: 64px;
@@ -127,6 +132,7 @@
         text-align: left;
         border-bottom: 2px dotted;
       }
+
       /* THE MENU PAGE TEMPLATE */
       .menu-template section.menu-section {
           padding-top: 0;
