@@ -60,9 +60,10 @@
 }
 .afn-menu-item .price-col {
     display: flex;
-    flex-direction: column;
     min-height: 64px;
+    flex-direction: column;
     justify-content: flex-end;
+    text-align: right;
     font-size: 24px;
 }
 .afn-menu-item .item-price {
@@ -99,6 +100,7 @@
 }
 
 @media screen and (max-width: 580px) {
+
     .menu-section .afn-menu-item {
         flex-wrap: wrap;
         margin-top: 30px;
@@ -112,6 +114,17 @@
     
     .afn-menu-item .price-line {
         column-gap: 26px;
+        flex-direction: column;
+        border-bottom: unset;
     }
+    .afn-menu-item .price-col {
+        flex-direction: row;
+        min-height: 64px;
+        justify-content: space-between;
+        align-items: flex-end;
+        font-size: 22px;
+        text-align: left;
+        border-bottom: 2px dotted;
+      }
 }
  
