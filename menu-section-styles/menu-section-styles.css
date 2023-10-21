@@ -91,7 +91,6 @@
     }
     .afn-menu-item .price-line {
         margin-top: 5px;
-        justify-content: flex-start;
     }
     .afn-menu-item .item-desc {
         padding-top: 5px;
@@ -115,6 +114,7 @@
     
     .afn-menu-item .price-line {
         column-gap: 26px;
+        justify-content: flex-start;
         flex-direction: column;
         border-bottom: unset;
     }
